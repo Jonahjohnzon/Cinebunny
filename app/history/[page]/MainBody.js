@@ -6,7 +6,7 @@ import { IoArrowBack } from "react-icons/io5";
 import TitleBar from '@/app/Component/TitleBar';
 import RecentBlock from '@/app/Pages/RecentBlock';
 import Loading from '../../Loading';
-import Pagination from '@/app/[type]/[genre]/[date]/[sort]/[page]/Component/Pagination';
+import Pagination from '@/app/[type]/[genre]/[country]/[date]/[sort]/[page]/Component/Pagination';
 
 
 const MainBody = ({page}) => {
