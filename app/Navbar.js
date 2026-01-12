@@ -42,16 +42,16 @@ const Navbar = ({active}) => {
               <img src='/logologo.png' className={` ${active? 'w-8 sm:w-12':' w-8 sm:w-10 md:w-16'} mr-2`}/>
               <h2 className=' text-xl sm:text-2xl md:text-3xl font-extrabold '>CineBunny</h2>
             </div>
-            <ul className=' md:flex w-[60%] hidden lg:w-[45%] xl:w-4/12 text-white justify-between font-bold items-center text-xl'>
+            <ul className=' md:flex w-[50%] hidden lg:w-[45%] xl:w-4/12 text-white justify-between font-bold items-center text-xl'>
               <li className=' cursor-pointer hover:scale-[90%] transition-all duration-300 ease-in-out' onClick={()=>{
       router.push(`/`)
     }}>Home</li>
               <li className=' cursor-pointer hover:scale-[90%] transition-all duration-300 ease-in-out' onClick={()=>{
       router.push(`/tv/10759/KR/${previousYear}/1/1`)
-    }}>K-Series</li>
+    }}>K-Drama</li>
               <li className=' cursor-pointer hover:scale-[90%] transition-all duration-300 ease-in-out'  onClick={()=>{
       router.push(`/tv/10759/CN/${previousYear}/1/1`)
-    }}>C-Series</li>
+    }}>C-Drama</li>
      <li className=' cursor-pointer hover:scale-[90%] transition-all duration-300 ease-in-out'  onClick={()=>{
       router.push(`/movie/28/KR/${previousYear}/1/1`)
     }}>K-Movies</li>
