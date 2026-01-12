@@ -17,9 +17,9 @@ const InputBox = ({params}) => {
   const country = params.country
   const date = params.date
   const sort = params.sort
-  for (let year = 1940; year <= currentYear; year++) {
-    years.push(year);
-  }
+ for (let year = currentYear; year >= 1940; year--) {
+  years.push(year);
+}
   return (
     <div className={` flex  items-center ${genre == '16'?' w-full sm:w-[60%] md:w-[40%]':'  w-full sm:w-[80%] md:w-[50%]'} justify-between`}>
       <div >
