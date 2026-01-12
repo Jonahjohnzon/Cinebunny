@@ -7,7 +7,7 @@ async function verifyToken(token) {
   return payload;
 }
 
-export const middleware = async (req) => {
+export const proxy = async (req) => {
   try {
     const { pathname } = req.nextUrl;
  

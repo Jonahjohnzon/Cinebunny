@@ -2,13 +2,11 @@
   "name": "letstream",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start -p 80",
-    "lint": "next lint",
-    "static": "next build &&  next export"
-  },
+ "scripts": {
+  "dev": "next dev --webpack",
+  "build": "next build --webpack",
+  "start": "next start"
+},
   "dependencies": {
     "@vercel/analytics": "^1.4.1",
     "axios": "^1.7.9",
